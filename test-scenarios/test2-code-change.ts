@@ -9,4 +9,8 @@ export class TestUtility {
   public greet(): string {
     return `Hello, ${this.name}!`;
   }
+
+  public farewell(): string {
+    return `Goodbye, ${this.name}!`;
+  }
 }
