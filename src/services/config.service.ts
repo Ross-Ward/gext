@@ -88,7 +88,7 @@ export class ConfigService {
   createDefaultConfigFile(): void {
     const configPath = path.join(process.cwd(), ConfigService.CONFIG_FILE);
     const defaultConfig = this.getDefaultConfig();
-    
+
     fs.writeFileSync(configPath, JSON.stringify(defaultConfig, null, 2));
     console.log(`Created default config file: ${configPath}`);
   }

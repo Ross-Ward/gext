@@ -1,7 +1,8 @@
 {
   "ai": {
-    "provider": "gemini",
-    "model": "gemini-1.5-flash",
+    "provider": "ollama",
+    "model": "llama3.1",
+    "baseUrl": "http://localhost:11434",
     "promptPath": "diff-prompt.txt"
   },
   "git": {
