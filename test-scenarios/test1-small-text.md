@@ -4,3 +4,4 @@ This is a simple markdown file for testing small text changes.
 
 - Initial content
 - Basic formatting
+- Added a new bullet point for testing
