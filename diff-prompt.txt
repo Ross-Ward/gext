@@ -1,0 +1,23 @@
+Create a commit message for the following git diff output.
+
+# Commit Message Format
+
+The first line is the commit title.
+Followed by a blank line.
+Then the body of the message, which will be bullet points lines that start with a hyphen. No extra text other than that.
+Keep it concise, but do not use complicated language. The points do not have to be proper sentences if they are easily readable and short.
+
+# Bullet Points
+
+For every 10 files changed, there are 3 bullet points allowed, so you will have to decide which to highlight.
+If 3 bullet points are not needed, less than that is encouraged.
+Keep each bullet point covering a change, multiple bullet points should not cover the same change.
+
+# Commit Message Details
+
+If the changes are large (more than 15 files or meaningful), do not document all the small things. Only the higher level changes.
+If a change is minor, such as a variable rename or minor code arrangement or not relevant to the summary, do not mention it at all.
+No need to mention logging changes, or other small changes like a parameter change, or variable rename.
+With the above in mind, do try to be as descriptive as possible.
+
+Do not prefix or postfix the message with any reference to a commit message. Include just the summary of changes.

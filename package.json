@@ -1,0 +1,31 @@
+{
+  "name": "gext",
+  "version": "1.0.0",
+  "description": "A TypeScript application for automating Git operations with AI-powered commit messages",
+  "main": "dist/index.js",
+  "bin": {
+    "gext": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rimraf dist"
+  },
+  "keywords": ["git", "ai", "automation", "commit", "typescript"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^11.1.0",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "axios": "^1.6.0",
+    "@google/generative-ai": "^0.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.0",
+    "typescript": "^5.2.2",
+    "ts-node": "^10.9.1",
+    "rimraf": "^5.0.5"
+  }
+}
