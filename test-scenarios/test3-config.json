@@ -1,0 +1,10 @@
+{
+  "testConfig": {
+    "environment": "development",
+    "features": {
+      "logging": true,
+      "debugging": false
+    },
+    "version": "1.0.0"
+  }
+}
