@@ -5,8 +5,8 @@ Gext is a TypeScript application for automating Git operations with AI-powered c
 ## Features
 
 - 🤖 **Multiple AI Providers**: OpenAI, Ollama, Groq, Google Gemini
-- 🆓 **Free Options**: Ollama (local), Groq (free tier), Gemini (free tier)
-- 🏠 **Privacy**: Keep your code local with Ollama
+- 🆓 **Free Options**: Ollama (local), Groq (free tier), Gemini (free tier) #TOKEN USAGE ISSUE 
+- 🏠 **Privacy**: Keep your code local with Ollama #SOME MODELS
 - ⚡ **Fast**: Quick cloud inference with Groq
 - 🔧 **Configurable**: Easy configuration via JSON or environment variables
 
